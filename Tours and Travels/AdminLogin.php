@@ -1,8 +1,3 @@
-
-
-
-
-
 <!doctype html>
 <html>
 <head>
@@ -29,7 +24,6 @@ body, html {
   /* The image used */
   background-image: url("Admin_Login_bg.jpg");height:730px;filter: blur(px);-webkit-filter: blur(px);
   width:1535px;
-top-margin:0px;
 	min-height: 750px ;
 	background-position: bottom ;
   background-repeat: repeat;
@@ -73,7 +67,6 @@ height: 700px;
 /* Add styles to the form container */
 .container {
 	position: center;
-	right: ;
 	margin: 20px 00px 0px 20px;
 	width: 300px;
 	padding: 20px 0px 30px 60px;
@@ -106,7 +99,7 @@ input[type=text]:focus, input[type=password]:focus {
 .btn {
 
 color: white;
-  background-color:#0b495e;#1f618d
+  background-color:#0b495e;
   display:inline-block;
     padding: 15px 40px;
     background-color: #0b495e;
@@ -126,7 +119,7 @@ color: white;
 .button {
 
 color: white;
-  background-color:#1f618d;#0b495e
+  background-color:#1f618d;
   display:inline-block;
     padding: 15px 30px;
     background-color: #0b495e;

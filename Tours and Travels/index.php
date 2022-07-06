@@ -37,7 +37,7 @@ h1{font-size:75px;color: #0b495e;text-align:center;font-family: Titillium;}
 .button {
 text-align: ceneter;
 color: white;
-  background-color:#0b495e; #1f618d
+  background-color:#0b495e;
   display:inline-block;
     padding: 20px 80px;
     
