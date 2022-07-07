@@ -15,70 +15,18 @@
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: sans-serif;
-      font-size: 20px;
-    }
-
-
-    h1 {
-      font-size: 75px;
-      color: #0b495e;
-      text-align: center;
-      font-family: Titillium;
-    }
-
-
-
-
-    .button {
-      text-align: ceneter;
-      color: white;
-      background-color: #0b495e;
-      display: inline-block;
-      padding: 20px 80px;
-      border: 1px;
-      opacity: 1;
-      cursor: pointer;
-    }
-
-    .button:hover {
-      background-color: green;
-      color: white;
-      opacity: 1.5;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="CSS\index.css" media="screen" />
 </head>
 
 
-<body style="background-color: white ">
+<body>
+  <b><h1>Tours and Travels</h1>
 
-
-  <b>
-    <h1>Tours and Travels</h1>
-
-    <center> <img src="index-bg.jpeg" alt="Notebook" style="width: 1120px; height: 470px;">
-
-      <b><br><br><br>
-
-        <a class="button" style="padding: 20px 90px" href="AdminLogin.php">Admin</a>
-        <a class="button" href="CustomerLogin.php" style="margin-left: 50px">Customer</a>
-
-
-        <br><br>
-    </center>
-
-
-
-
+  <center> 
+    <img src="CSS\index-bg.jpeg" alt="Notebook"><b><br><br><br>
+    <a class="AdminBtn"  href="AdminLogin.php">Admin</a>
+    <a class="CustBtn" href="CustomerLogin.php">Customer</a><br><br>
+  </center>
 </body>
 
 </html>

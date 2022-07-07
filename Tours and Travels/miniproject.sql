@@ -3,7 +3,6 @@ create database miniproject;
 use miniproject;
 
 
-
 /*CREATE AND INSERT TABLES*/    
 drop table if exists package;
 CREATE TABLE package (

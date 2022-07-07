@@ -21,7 +21,6 @@ VALUES ('$name','$password','$email','$address','$contact')";
 
 
 
-
 if(mysqli_query($link, $sql)){
     
     header('location: CustomerLogin.php ');
@@ -32,4 +31,3 @@ if(mysqli_query($link, $sql)){
  
 // Close connection
 mysqli_close($link);
-?>

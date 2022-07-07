@@ -1,0 +1,104 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+
+.bg-img {
+    /* The image used */
+    background-image: url("s2.jpg");
+    height: 780px;
+    filter: blur(px);
+    -webkit-filter: blur(px);
+    width: 1536px;
+    margin: 0px;
+    height: 753px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+input {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button {
+    color: white;
+    background-color: #0b495e;
+    display: inline-block;
+    padding: 10px 0px;
+    margin-left: 42px;
+    border: none;
+    height: 07%;
+    width: 40%;
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 05px;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: green;
+    opacity: 1;
+}
+
+input {
+    background-color: whitesmoke;
+    height: 50px;
+    width: 40%;
+    border: 1px;
+    border-radius: 05px;
+    padding: 8px 15px 8px 15px;
+    margin: 20px 0px 0px 30px;
+    box-shadow: 1px 1px 2px 1px grey;
+}
+
+
+form.example input[type=text] {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+
+
+
+h1 {
+    color: #fff;
+    text-shadow: 0 0 2px #fff, 0 0 05px #fff, 0 0 10px #d4af37, 0 0 10px #d4af37, 0 0 10px #d4af37, 0 0 10px #d4af37, 0 0 10px #d4af37;
+    font-size: 50px;
+    margin-left: 80px;
+    margin-top: 80px;
+}

@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: white
+}
+
+
+h1 {
+  font-size: 75px;
+  color: #0b495e;
+  text-align: center;
+  font-family: Titillium;
+}
+
+
+img {
+  width: 1120px;
+  height: 470px;
+}
+
+
+.AdminBtn {
+  text-align: ceneter;
+  color: white;
+  background-color: #0b495e;
+  display: inline-block;
+  padding: 20px 80px;
+  border: 1px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+.AdminBtn:hover {
+  background-color: green;
+  color: white;
+  opacity: 1.5;
+}
+
+
+.CustBtn {
+  text-align: ceneter;
+  color: white;
+  background-color: #0b495e;
+  display: inline-block;
+  padding: 20px 80px;
+  border: 1px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+.CustBtn:hover {
+  background-color: green;
+  color: white;
+  opacity: 1.5;
+}
+
+
+a.AdminBtn {
+  padding: 20px 90px;
+}
+
+a.CustBtn {
+  margin-left: 50px;
+}
