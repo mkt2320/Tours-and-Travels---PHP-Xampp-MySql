@@ -23,7 +23,7 @@ body, html {
   /* The image used */
   background-image: url("s1.jpg");height:730px;filter: blur(px);-webkit-filter: blur(px);
   width:1519px;
-margin:0px;
+  margin:0px;
   height: auto;
   background-position: bottom ;
   background-repeat: repeat;
@@ -42,33 +42,28 @@ margin:0px;
 
 .button 
 {
-
-color: white;
-  background-color: #2b2d42   
-;#0b495e #0c706f
+  color: white;
+  background-color: #2b2d42 ;
   display:inline-block;
-    
-    position: absolute;
-  top: ;
+  position: absolute;
   left: 10%;
   border: none;
-  
   opacity: 1;
   cursor: pointer;
-margin: 35px;  border: none;
+  margin: 35px;  
+  border: none;
   width: 100%;
   opacity: 1;
   cursor: pointer;
 }
 
 
-.btn {
-
-color: white;
-  background-color:#0c706f;#1f618d
+.btn 
+{
+  color: white;
+  background-color:#0c706f;
   display:inline-block;
-   
-    background-color: #2b2d42;
+  background-color: #2b2d42;
   position: absolute;
   top: 4.4%;
   right: 15%;
@@ -78,40 +73,59 @@ color: white;
   cursor: pointer;
 }
 
-table, td, th {  
+
+table, td, th 
+{  
   border-bottom: 2px solid grey;
   text-align: left;
 }
 
-tr:nth-child(even) {background-color: whitesmoke;}
-tr:nth-child(odd) {background-color:lightgrey;}
-table { background-color: #F2DBDE;  border-collapse: collapse;}
-th { background-color:  #2b2d42 ;padding: 15px ;text-align: center;#0b495e #ffd78c}
-td{font-size: 30px;text-align: center;}
+
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+
+tr:nth-child(odd) {
+  background-color:lightgrey;
+}
+
+
+table { 
+  background-color: #F2DBDE;  
+  border-collapse: collapse;
+}
+
+
+th { 
+  background-color:  #2b2d42 ;
+  padding: 15px ;text-align: center;
+}
+
+
+td{
+  font-size: 30px;text-align: center;
+}
+
 
 h1{
   font-size: 80px;
   color: #fff;
   text-align: center;
   text-shadow: 0 0 1px #fff, 0 0 2px blue, 0 0 15px brown, 0 0 10px brown,  0 0 10px brown;
-
 }
 
 </style>
 
 <body style="background-color: Black ">
-
 <div class="bg-img">  
-
-<a  class="button" style="width:150px;padding: 15px 20px;margin: 50px;text-align: center;" href="serchC.php" ><b>Search </a>
-<br><br>
-
-
+  <a  class="button" style="width:150px;padding: 15px 20px;margin: 50px;text-align: center;" href="serchC.php" ><b>Search </a><br><br>
   <a class="btn" style="width:150px;padding: 15px 20px;color:white;text-align: center;"
-  href="index.php" ><b>Logout</a></button>
-<br><br>
+  href="index.php" ><b>Logout</a></button><br><br>
 
-<center><h1 style="color:white;font-size: 80px;">Packages</h1></center>
+<center>
+  <h1 style="color:white;font-size: 80px;">Packages</h1>
+</center>
 
 
 
@@ -166,8 +180,7 @@ else
    echo "NO RECORD FOUND";
 
 }
-
-  
+ 
 ?>
 </table>
 

@@ -65,7 +65,7 @@ margin: 200px;  border: none;
 
 
 <div class="">
- <center> <img src="index-bg.jpeg" alt="Notebook" style="width: 1120px; height: 470px;">
+<center> <img src="index-bg.jpeg" alt="Notebook" style="width: 1120px; height: 470px;">
 
 <b><br><br><br>
 
