@@ -28,9 +28,6 @@ CREATE TABLE Admin (
 	admin_pass varchar(50)
     );
     
- INSERT INTO Admin ( admin_name, admin_pass) VALUES
-( 'Miti Tamakuwala', 'Miti@123');
-    
  drop table if exists Account;
  CREATE TABLE Account(
 cust_email varchar(50)PRIMARY KEY,
@@ -64,7 +61,7 @@ show tables;
 
 
 /*TRIGGERS*/
-/*drop trigger V_customer;*/
+drop trigger V_customer;
 set foreign_key_checks=0;
  delimiter $$
 CREATE trigger V_customer after insert on Account
@@ -75,7 +72,7 @@ insert into customer(cust_pass,cust_name)values(new.cust_pass,new.cust_name);
  delimiter ;
  
 
- /*drop trigger On_Delete;*/
+ drop trigger On_Delete;
  delimiter $$
 CREATE Trigger On_Delete before delete on package
 for each row

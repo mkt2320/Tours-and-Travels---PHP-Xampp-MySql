@@ -14,7 +14,7 @@ $price = mysqli_real_escape_string($link, $_POST['price']);
 $mot = mysqli_real_escape_string($link, $_POST['mot']);
 $filename= $_FILES["uploadfile"]["name"];
 $tempname= $_FILES["uploadfile"]["tmp_name"];
-$folder= "student/".$filename;
+$folder= "Uploaded Image/".$filename;
 move_uploaded_file($tempname,$folder);
 
 

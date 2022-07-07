@@ -68,7 +68,7 @@ height: 680px;
 
 /* style the container */
 .container {
-  position: center;right=0;
+  position: center;
   border-radius: 20px;
   background-color: transparent;
   padding: 20px 0px 30px 0;
@@ -197,8 +197,9 @@ input[type=submit]:hover {
 
 <form action="insert.php" method="POST" name="login">
     <div class="row">
-      <b><h2 style="text-align:center;font-size:40px;font-family: Titillium;">Registration</h2></b>
+      <b><h2 style="text-align:center;font-size:40px;font-family: Titillium; margin:0px 10px">Registration</h2></b>
       <p>Please fill this form to create an account.</p>
+      <br><br><br>
       <div class="vl">
 
         <span></span>
